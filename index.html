@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="/src/images/vaisakh.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaisakh M M</title>
+    <!-- Font Awesome for WhatsApp Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+      <!-- whatsapp -->
+  <a href="https://wa.me/+919895785645 " class="btn-whatsapp-pulse btn-whatsapp-pulse-border" id="whatsappButton" role="button" aria-label="Call via WhatsApp">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <!-- whatsapp end -->
+    
+  </body>
+  <script>
+    document.getElementById("whatsappButton").addEventListener("click", function(event) {
+        // No need to prevent the default action as we're using the correct link
+
+        // Open the WhatsApp link for both mobile and desktop devices
+        window.open("https://wa.me/+919895785645", '_blank');
+    });
+</script>
+</html>
+
