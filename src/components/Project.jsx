@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { Box, Typography, Card, CardContent, Grid, Button } from "@mui/material";
 import { motion } from "framer-motion";
@@ -12,6 +13,9 @@ import projectImage6 from '../images/2.3.png';
 import projectImage7 from '../images/3.11.png';
 import projectImage8 from '../images/3.11.png';
 import projectImage9 from '../images/3.11.png';
+import projectImage10 from '../images/4.1.png';
+import projectImage11 from '../images/4.2.png';
+import projectImage12 from '../images/4.3.png';
 
 const Projects = () => {
   const projects = [
@@ -26,6 +30,15 @@ const Projects = () => {
       liveLink: "https://petsify-khaki.vercel.app/"
     },
     {
+      title: "The lillys",
+      images: [projectImage10, projectImage11, projectImage12],
+      points: [
+        "Using REACT, Framer Motion, meterial ui - ",
+      
+      ],
+      liveLink: "https://thelillys.in/"
+    },
+    {
       title: "Gold Jewllery",
       images: [projectImage4, projectImage5, projectImage6],
       points: [
@@ -35,6 +48,7 @@ const Projects = () => {
       ],
       liveLink: "https://ttdevassyjewellers.com/pages/ttdmigold#"
     },
+
     {
       title: "Country Details",
       images: [projectImage7, projectImage8, projectImage9],
@@ -45,6 +59,7 @@ const Projects = () => {
       ],
       liveLink: "https://vaisakhmm.github.io/country/"
     },
+
   ];
 
   return (
